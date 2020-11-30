@@ -1,0 +1,124 @@
+/* My Style */
+/* ============================= */
+/* General */
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px; 
+}
+
+/* Default values */
+.title{
+  font-size:2rem;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  color: rgb(139, 64, 64);  
+  text-align: center;   
+}
+
+.my-button{
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  width: 135px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+/* Section Main Slider */
+.main-slider {
+  display: flex;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: url('img/main-slider.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.slider-content {
+  background: rgba(95, 95, 95, 0.53);
+  padding: 40px 50px;
+  color: white;
+  text-align: center;
+}
+
+.slider-content_description {
+  padding-bottom: 20px;
+  font-size: 1.1rem;
+  color: rgb(29, 55, 139);
+}
+
+.slider-content_heading {
+  padding-bottom: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.slider-content_button {
+  font-weight: normal;
+  background-color: red;
+}
+
+/* Section Form Trial Lessons */
+
+.form-trial{
+  padding: 50px 0;
+  background: #929292;
+  color: white;    
+}
+
+.form-trial_title {
+  padding-bottom: 28px;
+}
+
+
+
+.fr-tr{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+
+
+/* ------ Contact Form 7 */
+
+
+
+/* Section Sound Familiar */
+.sound-familiar{
+  background: red url('');
+  padding: 100px;
+}
+
+
+
+
+
+
+
+/* Media Queries Bootstrap 4 */
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+  .slider-content_heading {
+    font-size: 1.4rem;
+  }
+
+  .slider-content_description {
+    font-size: 1.1rem;
+  }
+
+  .slider-content {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 576px) {}
