@@ -12,6 +12,7 @@ input[type=text]:focus {
   border: none;
 }
 
+
 /* Default values */
 .title {
   font-size: 2rem;
@@ -26,13 +27,28 @@ input[type=text]:focus {
   font-size: 1rem;
   border: 1px solid #FFFFFF;
   border-radius: 20px;
-  width: 135px;
+  width: 165px;
   height: 45px;
   margin: 0 auto;
   padding: 5px;
   line-height: 2.1;
   text-transform: uppercase;
 }
+
+.min-height{
+  min-height: 680px;
+}
+
+.price-height{
+  min-height: 20px;
+}
+
+.h-184{
+  height: 184px;
+}
+
+
+
 
 /* Section Main Slider */
 .main-slider {
@@ -193,21 +209,24 @@ input::placeholder {
 }
 
 /* ---- Why For You 4 sections */
-.w4y {
+.box {
   padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.w4y-box {
+.my-box {
   box-shadow: 1px 5px 39px 0px rgba(0, 0, 0, .35);
   margin: 8px 8px 8px 8px;
   padding: 41px 23px 43px 23px;
-  max-width: 250px;
   background-color: white;
   margin: 10px;
   border-radius: 9px;
+}
+
+.w4y {
+  max-width: 250px;
 }
 
 .w4y-box_icon {
@@ -225,11 +244,11 @@ input::placeholder {
   height: 50px;
 }
 
-.w4y-box_divider {
+.my-box_divider {
   display: block;
   width: 123px;
-  color: red;
-  border: 1px solid;  
+  color: rgba(236, 81, 81, 0.63);
+  border: 1px solid;
   margin: 20px auto;
 }
 
@@ -237,6 +256,94 @@ input::placeholder {
   text-align: center;
   font-size: 1.2rem;
 }
+
+
+
+/* Section Courses */
+.courses {
+  padding: 50px;
+}
+
+.courses_title {
+  color: red;
+}
+
+.box{}
+
+.my-courses{
+  width: 350px;
+}
+
+.courses-box_title {
+  color: #457b9d;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.courses-box_subtitle {
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #54595f;
+}
+
+.courses-box_content {
+  
+}
+
+.premium{
+  min-height: 340px;
+}
+
+.courses-box_content li{
+  font-size: 1.3rem;
+  color: #636363;
+}
+
+.my-box_align{
+  text-align: center;
+  margin: 0 auto;  
+}
+
+.my-box_readmore{  
+  border: 1px solid red;
+  background: red;
+  color: white;
+}
+
+.my-box_readmore:hover{
+  transition: 0.5s;
+  background: white;
+  color: red;
+}
+
+.my-box_readmore a:hover{
+}
+
+
+.courses-box_price{
+  font-size: 2.0rem;
+  /* font-weight: bold; */
+  text-align: center;
+  padding-bottom: 20px;
+  color: #457b9d;
+}
+
+
+/* Section Lets Meet */
+.meet{
+  height: 500px;
+  background: red;
+}
+
+
+
+
+
+
 
 
 
