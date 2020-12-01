@@ -139,6 +139,13 @@ input[type=text]:focus {
   border: 1px solid white;
   line-height: 2.1;
   color: white;
+  transition: 0.6s;
+}
+
+.form-button:hover {
+  color: red;
+  background: #FFFFFF;
+  border: 1px solid red;
 }
 
 input::placeholder {
@@ -312,6 +319,7 @@ input::placeholder {
   border: 1px solid red;
   background: red;
   color: white;
+  transition: 0.6s;
 }
 
 .my-box_readmore:hover{
