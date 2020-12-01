@@ -401,7 +401,13 @@ input::placeholder {
 
 
 /* Section Testimonials */
+.testm-title{
+  color: red;
+}
 
+.reviews{
+  padding-top:50px;
+}
 
 
 
