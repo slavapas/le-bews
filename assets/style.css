@@ -239,9 +239,9 @@ input::placeholder {
   background-image: radial-gradient(at top left, rgba(143, 30, 30, .27) 0%, rgba(242, 41, 91, .71) 100%);
 }
 
-.right-place_title spam {
+.right-place_title span {
   display: block;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* ---- Why For You 4 sections */
@@ -407,6 +407,48 @@ input::placeholder {
 
 .reviews{
   padding-top:50px;
+}
+
+.reviews-box{
+  min-height: 400px;
+}
+
+.review-text{
+  font-size: 1.3rem;
+}
+
+.review-ptoho{ 
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wrapme{}
+
+.wrapme span{
+  display: block;  
+  padding-left: 30px;
+}
+
+.wrapme .name{
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.wrapme .location{
+  font-size: 1.1rem;
+  color: grey;
+}
+
+
+
+.review-ptoho img{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
 }
 
 
