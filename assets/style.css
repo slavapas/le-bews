@@ -19,7 +19,7 @@ input[type=text]:focus {
   font-weight: bold;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: center;  
 }
 
 .my-button {
@@ -45,6 +45,30 @@ input[type=text]:focus {
 
 .h-184{
   height: 184px;
+}
+
+hr.line-red{   
+  border: 0;
+  height: 3px;
+  background-color: red;
+  width: 100px;
+  margin: 8px auto;
+}
+
+hr.line-white{   
+  border: 0;
+  height: 3px;
+  background-color: #FFFFFF;
+  width: 100px;
+  margin: 8px auto;
+}
+
+.top-50{
+  padding: 50px 0;
+}
+
+.top-100{
+  padding: 100px 0;
 }
 
 
@@ -86,12 +110,19 @@ input[type=text]:focus {
 .slider-content_button {
   font-weight: normal;
   background-color: red;
+  transition: 0.6s;
 }
+
+.slider-content_button:hover {
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+
 
 /* Section Form Trial Lessons */
 
 .form-trial {
-  padding: 50px 0;
   background: #929292;
   color: white;
 }
@@ -163,8 +194,7 @@ input::placeholder {
 .sound-familiar {
   background: #ffffff url('img/bg-img-free-img-2-1.png') no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  padding: 40px;
+  background-position: center;  
   font-size: 2.5rem;
 }
 
@@ -205,7 +235,6 @@ input::placeholder {
 
 /* Section Right Place */
 .right-place {
-  padding: 50px 0;
   background-color: transparent;
   background-image: radial-gradient(at top left, rgba(143, 30, 30, .27) 0%, rgba(242, 41, 91, .71) 100%);
 }
@@ -217,7 +246,6 @@ input::placeholder {
 
 /* ---- Why For You 4 sections */
 .box {
-  padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -268,11 +296,12 @@ input::placeholder {
 
 /* Section Courses */
 .courses {
-  padding: 50px;
+  
 }
 
 .courses_title {
   color: red;
+  padding-bottom: 50px;
 }
 
 .box{}
@@ -342,12 +371,36 @@ input::placeholder {
 
 
 /* Section Lets Meet */
-.meet{
-  height: 500px;
+.meet{  
   background: red;
 }
 
+.meet-about-me{
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
 
+.meet-photo{
+}
+
+.meet-photo img{ 
+  width: 100%;  
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  vertical-align: middle;
+
+}
+
+.meet-biography{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* Section Testimonials */
 
 
 
